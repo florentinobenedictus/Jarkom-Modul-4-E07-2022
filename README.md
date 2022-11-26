@@ -20,6 +20,9 @@ Selanjutnya, dibuat tree VLSM sebagai berikut<br>
 ### Konfigurasi CPT
 Pada CPT, topologi akan dibuat seperti [Modul 4 Jarkom](https://github.com/arsitektur-jaringan-komputer/Modul-Jarkom/tree/master/Modul-4), kemudian tiap node (router, host) akan diconfig sesuai dengan IP subnet sehingga IP node maupun gateway akan berada pada range usable IP tiap subnet. Kemudian dilakukan direct routing dan static routing pada tiap router yang berada dalam topologi. Uji coba file .pkt dapat dilakukan dengan mengirimkan pesan dari suatu node ke node lain
 
+![messageImage_1669465101734](https://user-images.githubusercontent.com/103361498/204089414-6405a4bd-87a6-4b9c-a0d9-4763becd3f8f.jpg)
+
+
 ## CIDR (GNS3)
 
 ### Topologi
