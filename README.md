@@ -8,6 +8,12 @@ https://miro.com/app/board/uXjVPBM25LY=/
 | Florentino Benedictus       | 5025201222 |
 | Muhammad Zufarrifqi Prakoso | 5025201276 |
 
+#### [Soal Modul 4](soal-modul-4-1)
+#### [Resources](resources)
+#### [Pembagian Tugas](#pembagian-tugas-1)
+#### [Kendala](#kendala-1)
+#### [Revisi](#revisi-1)
+
 ## Soal Modul 4
 - [Soal](https://docs.google.com/document/d/1a_ITp6WYIqoJFXA2oL1jkox9AzqYGxicjr2LGPBsqBE/edit)
 ## VLSM
