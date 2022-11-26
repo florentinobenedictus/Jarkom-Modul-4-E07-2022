@@ -22,6 +22,7 @@ Pada CPT, topologi akan dibuat seperti [Modul 4 Jarkom](https://github.com/arsit
 
 ![messageImage_1669465101734](https://user-images.githubusercontent.com/103361498/204089414-6405a4bd-87a6-4b9c-a0d9-4763becd3f8f.jpg)
 
+![95B77C63-A805-4ED0-BE69-E5B5346B6DBE](https://user-images.githubusercontent.com/103361498/204089930-1074c35c-f95c-4f27-aa23-ad84ae029b65.jpg)
 
 ## CIDR (GNS3)
 
