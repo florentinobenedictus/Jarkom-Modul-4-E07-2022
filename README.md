@@ -7,6 +7,8 @@
 | Florentino Benedictus       | 5025201222 |
 | Muhammad Zufarrifqi Prakoso | 5025201276 |
 
+[Link Miro Kelompok (VLSM & CIDR TREE, Tabel, Sequence CIDR)](https://miro.com/app/board/uXjVPBM25LY=/)
+
 ## Soal Modul 4
 - [Soal](https://docs.google.com/document/d/1a_ITp6WYIqoJFXA2oL1jkox9AzqYGxicjr2LGPBsqBE/edit)
 ## VLSM (CPT)
