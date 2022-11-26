@@ -1,6 +1,5 @@
 # Jarkom-Modul-4-E07-2022
 
-https://miro.com/app/board/uXjVPBM25LY=/
 
 | Nama                        | NRP        |
 |:---------------------------:|:----------:|
@@ -8,16 +7,19 @@ https://miro.com/app/board/uXjVPBM25LY=/
 | Florentino Benedictus       | 5025201222 |
 | Muhammad Zufarrifqi Prakoso | 5025201276 |
 
-#### [Soal Modul 4](soal-modul-4-1)
-#### [Resources](resources)
-#### [Pembagian Tugas](#pembagian-tugas-1)
-#### [Kendala](#kendala-1)
-#### [Revisi](#revisi-1)
-
 ## Soal Modul 4
 - [Soal](https://docs.google.com/document/d/1a_ITp6WYIqoJFXA2oL1jkox9AzqYGxicjr2LGPBsqBE/edit)
-## VLSM
+## VLSM (CPT)
+Pertama-tama akan dibuat tabel yang berisi jumlah IP pada tiap subnet dan totalnya<br>
+![image](https://user-images.githubusercontent.com/85059763/204088625-bdca2193-01bf-4122-99dc-34162f400271.png)<br>
+Selanjutnya, dibuat tree VLSM sebagai berikut<br>
+![image](https://user-images.githubusercontent.com/85059763/204088669-d9e612bf-a390-42e8-a61e-1cd7b1207900.png)<br>
+
+### Konfigurasi CPT
+Pada CPT, topologi akan dibuat seperti [Modul 4 Jarkom](https://github.com/arsitektur-jaringan-komputer/Modul-Jarkom/tree/master/Modul-4), kemudian tiap node (router, host) akan diconfig sesuai dengan IP subnet sehingga IP node maupun gateway akan berada pada range usable IP tiap subnet. Kemudian dilakukan direct routing dan static routing pada tiap router yang berada dalam topologi. Uji coba file .pkt dapat dilakukan dengan mengirimkan pesan dari suatu node ke node lain
+
 ## CIDR (GNS3)
+
 ### Topologi
 ![image](https://user-images.githubusercontent.com/77829361/204077871-9dcb1ff0-5355-43af-ac05-a64402ba8a94.png)
 ### Penggabungan Subnet
@@ -30,7 +32,9 @@ Pengabungan Subnetnya adalah sebagai berikut
 ![image](https://user-images.githubusercontent.com/77829361/204078604-330f21f4-6406-4e0c-b33f-47e9b154b14a.png)
 ![image](https://user-images.githubusercontent.com/77829361/204078618-14966956-1326-4ca7-8676-e4ee4efa6d08.png)
 ![image](https://user-images.githubusercontent.com/77829361/204078634-1c8373d8-0634-4b53-ab11-9a9c35b96a9e.png)
-![image](https://user-images.githubusercontent.com/77829361/204078664-ed4cdb9d-9a3a-4ee1-a2d1-c4c65bfc443b.png)
+![image](https://user-images.githubusercontent.com/77829361/204078664-ed4cdb9d-9a3a-4ee1-a2d1-c4c65bfc443b.png)<br>
+Selanjutnya, dari penggabungan subnet dibuat tree CIDR<br>
+![image](https://user-images.githubusercontent.com/85059763/204088757-f10c479f-270b-48a8-9be9-f9f73389aeef.png)<br>
 
 ### Konfigurasi GNS
 #### The Resonance
@@ -293,3 +297,16 @@ iface eth0 inet static
 	gateway 10.25.4.1
 	up echo nameserver 192.168.122.1 > /etc/resolv.conf
 ```
+#### Setup Static dan Direct Routing
+Pada tiap router dilakukan static dan direct routing seperti pada GNS, script pada router dapat dijalankan dengan `bash /root/script.sh`
+
+## Pembagian Tugas
+| Nama                        | Nomor      |
+|:---------------------------:|:----------:|
+| Arya Nur Razzaq             | CPT        |
+| Florentino Benedictus       | CIDR & VLSM|
+| Muhammad Zufarrifqi Prakoso | GNS3       |
+## Kendala
+Tidak ada
+## Revisi
+Tidak ada
